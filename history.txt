@@ -1,0 +1,124 @@
+  134  git config
+  135  git config --system
+  136  ls examen.git
+  137  cd examen.git
+  138  mkdir examen.git
+  139  cs examen.git
+  140  cd examen.git
+  141  git init
+  142  ls
+  143  ls -a
+  144  git st
+  145  pwd
+  146  pwd
+  147  nano mars.txt
+  148  touch mars.txt
+  149  echo mars.txt "Cold and dry. but everything is my favourite color"
+  150  ls mars.txt
+  151  ls
+  152  cat mars.txt
+  153  nano mars.txt
+  154  ls mars.txt
+  155  cat mars.txt
+  156  git st
+  157  git add mars.txt
+  158  git status
+  159  git commit -m "Start notes as mars as a base"
+  160  git status
+  161  git log
+  162  git diff
+  163  nano mars.txt
+  164  cat mars.txt
+  165  git diff
+  166  git st
+  167  git commit
+  168  git commit -a
+  169  git diff
+  170  got add mars.txt
+  171  git add mars.txt
+  172  git commit -m "Add concerns about effects on Mars' moons on Wolfman"
+  173  nano mars.txt
+  174  cat mars.txt
+  175  git diff
+  176  git add mars.txt
+  177  git diff
+  178  git diff --staged
+  179  git commit -m "Discuss concerns about Mars' climate for Mummy"
+  180  git log
+  181  git log -1
+  182  git log --oneline
+  183  git log --oneline --graph --all --decorate 
+  184  mkdir directory
+  185  git status
+  186  git add directory
+  187  git status
+  188  git add 1
+  189  nano mars.txt
+  190  cat mars.txt
+  191  nano mars.txt
+  192  nano mars.txt
+  193  nano venus.txt
+  194  cat venus.txt
+  195  git add mars.txt venus.txt
+  196  git commit -m "Write plans to start a base on Venus"
+  197  git log --format=full
+  198  git commit --author="Vlad Dracula <vlad@tran.sylan.ia>"
+  199  git add me.txt
+  200  nano mars.txt
+  201  cat mars.txt
+  202  git diff HEAD mars.txt
+  203  git diff ~1
+  204  git diff ~1 mars.txt
+  205  git diff mars.txt ~1
+  206  git diff HEAD~1 mars.txt
+  207  git diff HEAD~2 mars.txt
+  208  git show HEAD~2 mars.txt
+  209  git diff f22b25e3233b4645dabd0d81e351fe074bd8e73b mars.txt
+  210  git diff f22b25e mars.txt
+  211  nano mars.txt
+  212  cat mars.txt
+  213  git status
+  214  git checkout HEAD mars.txt
+  215  cat mars.txt
+  216  git status
+  217  git log --oneline
+  218  git checkoutf78dc65 mars.txt
+  219  git checkout f78dc65 mars.txt
+  220  cat mars.txt
+  221  git checkout 867dbf4 mars.txt
+  222  cat mars.txt
+  223  git satus
+  224  git st
+  225  git checkout -f master mars.txt
+  226  git status
+  227  cd planets
+  228  cd examen.git
+  229  cd examen.git
+  230  cd examen git
+  231  cd ..
+  232  cd planets
+  233  nano venus.txt
+  234  git add venus.txt
+  235  nano venus.txt
+  236  git commit -m "Comment on Venus as a unsuitable base"
+  237  git checkout HEAD venus.txt
+  238  cat venus.txt
+  239  cd planets
+  240  git log mars.txt
+  241  git log --patch mars.txt
+  242  git log --patch HEAD~3 *.txt
+  243  mkdir results
+  244  touch a.dat b.dat results/a.out results/b.out
+  245  nano .gitignore
+  246  cat .gitignore
+  247  git status
+  248  git add .gitignore
+  249  git commit -"Añadiendo git ignore"
+  250  git commit -m "Añadiendo git ignore"
+  251  git status
+  252  git add a.dat
+  253  git st --ignored
+  254  git remote add origin git@github.com:Idiame/planets.git
+  255  git remote -v
+  256  git push origin master
+  257  history>history.txt
